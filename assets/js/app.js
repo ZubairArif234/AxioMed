@@ -2,7 +2,176 @@
 Author       : Dreamguys
 Template Name: PreClinic - Medical and Hospital Admin Template
 Version      : 1.0
-*/
+// */var select = document.getElementById("select_one");
+// var select2 = document.getElementById("select_two");
+// var select3 = document.getElementById("select_three");
+// var select4 = document.getElementById("select_four");
+
+
+// // Function to handle the change event
+// select.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// select2.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// select3.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// select4.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// function handleSelectChange() {
+// 	var selectedValue = select.value;
+// 	console.log(selectedValue);
+  
+// 	// Change the color of the selected option
+// 	var selectedOption = select.options[select.selectedIndex];
+// 	// selectedOption.style.backgroundColor='white'
+// 	select.style.border = 'none'
+// 	if(selectedValue === 'Urgent Care'){
+
+// 		select.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// 	}else if(selectedValue === 'Non Urgent Care'){
+// 		select.style.backgroundColor = "#FFD3B0"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Primary Care' ){
+// 		select.style.backgroundColor = "#C1D0B5"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Mental Health'){
+// 		select.style.backgroundColor = "#B799FF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Holistic Medicine'){
+// 		select.style.backgroundColor = "#ECCDB4"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Senior Care'){
+// 		select.style.backgroundColor = "#D0F5BE"; // Change the color to your desired value
+		
+// 	}
+// 	else if (selectedValue === `Women's Care`){
+// 		select.style.backgroundColor = "#FDCEDF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === `Men's Care`){
+// 		select.style.backgroundColor = "#9BABB8"; // Change the color to your desired value
+
+// 	}
+//   }
+// function handleSelectChange2() {
+// 	var selectedValue = select2.value;
+// 	console.log(select2.dValue);
+  
+// 	// Change the color of the select2.d option
+// 	// var select2.Option = select2.options[select2.select2.dIndex];
+// 	// select2.dOption.style.backgroundColor='white'
+// 	select2.style.border = 'none'
+// 	if(select2.Value === 'Urgent Care'){
+
+// 		select2.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// 	}else if(select2.Value === 'Non Urgent Care'){
+// 		select2.style.backgroundColor = "#FFD3B0"; // Change the color to your desired value
+		
+// 	}else if (select2.Value === 'Primary Care' ){
+// 		select2.style.backgroundColor = "#C1D0B5"; // Change the color to your desired value
+		
+// 	}else if (select2.Value === 'Mental Health'){
+// 		select2.style.backgroundColor = "#B799FF"; // Change the color to your desired value
+
+// 	}
+// 	else if (select2.Value === 'Holistic Medicine'){
+// 		select2.style.backgroundColor = "#ECCDB4"; // Change the color to your desired value
+
+// 	}
+// 	else if (select2.Value === 'Senior Care'){
+// 		select2.style.backgroundColor = "#D0F5BE"; // Change the color to your desired value
+		
+// 	}
+// 	else if (select2.Value === `Women's Care`){
+// 		select2.style.backgroundColor = "#FDCEDF"; // Change the color to your desired value
+
+// 	}
+// 	else if (select2.Value === `Men's Care`){
+// 		select2.style.backgroundColor = "#9BABB8"; // Change the color to your desired value
+
+// 	}
+//   }
+// function handleSelectChange3() {
+// 	var selectedValue = select.value;
+// 	console.log(selectedValue);
+  
+// 	// Change the color of the selected option
+// 	var selectedOption = select.options[select.selectedIndex];
+// 	// selectedOption.style.backgroundColor='white'
+// 	select.style.border = 'none'
+// 	if(selectedValue === 'Urgent Care'){
+
+// 		select.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// 	}else if(selectedValue === 'Non Urgent Care'){
+// 		select.style.backgroundColor = "#FFD3B0"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Primary Care' ){
+// 		select.style.backgroundColor = "#C1D0B5"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Mental Health'){
+// 		select.style.backgroundColor = "#B799FF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Holistic Medicine'){
+// 		select.style.backgroundColor = "#ECCDB4"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Senior Care'){
+// 		select.style.backgroundColor = "#D0F5BE"; // Change the color to your desired value
+		
+// 	}
+// 	else if (selectedValue === `Women's Care`){
+// 		select.style.backgroundColor = "#FDCEDF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === `Men's Care`){
+// 		select.style.backgroundColor = "#9BABB8"; // Change the color to your desired value
+
+// 	}
+//   }
+// function handleSelectChange4() {
+// 	var selectedValue = select.value;
+// 	console.log(selectedValue);
+  
+// 	// Change the color of the selected option
+// 	var selectedOption = select.options[select.selectedIndex];
+// 	// selectedOption.style.backgroundColor='white'
+// 	select.style.border = 'none'
+// 	if(selectedValue === 'Urgent Care'){
+
+// 		select.style.backgroundColor = "#FF9B9B"; // Change the color to your desired value
+// 	}else if(selectedValue === 'Non Urgent Care'){
+// 		select.style.backgroundColor = "#FFD3B0"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Primary Care' ){
+// 		select.style.backgroundColor = "#C1D0B5"; // Change the color to your desired value
+		
+// 	}else if (selectedValue === 'Mental Health'){
+// 		select.style.backgroundColor = "#B799FF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Holistic Medicine'){
+// 		select.style.backgroundColor = "#ECCDB4"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === 'Senior Care'){
+// 		select.style.backgroundColor = "#D0F5BE"; // Change the color to your desired value
+		
+// 	}
+// 	else if (selectedValue === `Women's Care`){
+// 		select.style.backgroundColor = "#FDCEDF"; // Change the color to your desired value
+
+// 	}
+// 	else if (selectedValue === `Men's Care`){
+// 		select.style.backgroundColor = "#9BABB8"; // Change the color to your desired value
+
+// 	}
+//   }
+  
+//   // Add event listener for the change event
+//   select.addEventListener("change", handleSelectChange);
+//   select2.addEventListener("change", handleSelectChange2);
+//   select3.addEventListener("change", handleSelectChange3);
+//   select4.addEventListener("change", handleSelectChange4);
+
 $(document).ready(function($) {
 	
 	// Variables declarations

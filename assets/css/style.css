@@ -1993,6 +1993,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	margin-bottom: 0;
 }
 .patient-visit {
+	text-align: center;
 	display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
