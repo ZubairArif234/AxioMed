@@ -2175,8 +2175,8 @@ table.dataTable thead .sorting_desc_disabled:after {
 	-ms-flex-pack: center;
 }
 .wallet-widget .circle-bar > div canvas {
-	width: 100px;
-	height: 100px;
+	width: 100px !important;
+	height: 100px !important;
 }
 .teaching-card {
 	display: -webkit-box;
@@ -2439,8 +2439,8 @@ table.dataTable thead .sorting_desc_disabled:after {
 	font-weight: 600;
 }
 .general-health.wallet-widget .circle-bar > div canvas {
-    width: 135px;
-    height: 135px;
+    width: 135px !important;
+    height: 135px !important;
 }
 .status-gray.re-shedule {
 	color: #2E37A4;
